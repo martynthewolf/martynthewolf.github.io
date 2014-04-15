@@ -1,5 +1,11 @@
 name: The Development Den
 markdown: redcarpet
 pygments: true
-author: Martyn Hardy
 markdown: kramdown
+
+author: Martyn Hardy
+email: martynthewolf@gmail.com
+profession: Software Engineer
+twitter: martynthewolf
+github: martynthewolf
+stackoverflow: martynthewolf
