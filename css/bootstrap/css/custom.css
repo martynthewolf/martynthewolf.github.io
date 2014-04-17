@@ -1,6 +1,6 @@
 .main-container {
     padding-top:100px;
-    width:45%;
+    max-width:50%;
 }
 
 html {
