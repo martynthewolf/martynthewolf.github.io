@@ -3,6 +3,8 @@ markdown: redcarpet
 pygments: true
 markdown: kramdown
 
+permalink: /:title
+
 author: Martyn Hardy
 email: martynthewolf@gmail.com
 profession: Software Engineer
