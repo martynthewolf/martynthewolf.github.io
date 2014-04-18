@@ -5,7 +5,7 @@ date:   2014-04-16 19:23:22
 categories: Open Source Software
 ---
 
-I want to start first talking about some common fears I hear from people who want to contribute
+I want to start first by talking about some common fears I hear from people who want to contribute
 to OSS but delay in doing so. They tend to break down into a couple of distinct groups of issues
 which I've attempted to categorise in the hope that they'll make them easier to discuss.
 
