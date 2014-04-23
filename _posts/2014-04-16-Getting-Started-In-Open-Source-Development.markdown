@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started in Open Source Software Development"
+title:  "Getting Started in Open Source Software Development (OSS)"
 date:   2014-04-16 19:23:22
 categories: Open Source Software
 ---
@@ -76,7 +76,7 @@ things, meet great people and who knows, maybe open doors to things that you nev
 #### Plug
 
 I contribute to [joind.in][joind-in] it's a great project, with a lot going on, an API, two websites
-an IPhone and Android App to work on. The maintainers are excellent and really supportive so if you're
+an iPhone and Android App to work on. The maintainers are excellent and really supportive so if you're
 trying to find your first OSS project to contribute to check out the [joindin repository][joind-in-github].
 
 [joind-in]: http://joind.in
