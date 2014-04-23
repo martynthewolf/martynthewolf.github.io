@@ -27,3 +27,13 @@ body {
 a:hover {
     text-decoration:none;
 }
+
+.tags {
+   font-style:italic;
+   background-color: #EAEAEA;
+   padding: 1em;
+}
+
+.tags p {
+    margin-bottom: 0;
+}

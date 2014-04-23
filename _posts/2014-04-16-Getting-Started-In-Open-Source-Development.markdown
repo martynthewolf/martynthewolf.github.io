@@ -3,6 +3,12 @@ layout: post
 title:  "Getting Started in Open Source Software Development (OSS)"
 date:   2014-04-16 19:23:22
 categories: Open Source Software
+tags:
+- Open Source Software
+- OSS
+- contribute
+- confidence
+- community
 ---
 
 I want to start first by talking about some common fears I hear from people who want to contribute
