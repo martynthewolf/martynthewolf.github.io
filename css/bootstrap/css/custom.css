@@ -29,11 +29,17 @@ a:hover {
 }
 
 .tags {
-   font-style:italic;
-   background-color: #EAEAEA;
-   padding: 1em;
+   padding: 0.5em;
 }
 
-.tags p {
-    margin-bottom: 0;
+.tags h4 {
+    margin-top:0;
+}
+
+.tags ul {
+    margin-left:0;
+}
+
+hr {
+    margin:5px;
 }

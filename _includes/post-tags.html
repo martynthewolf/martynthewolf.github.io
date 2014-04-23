@@ -1,5 +1,11 @@
 {% if include.tags.size > 0 %}
+<hr />
 <div class="tags">
-    <p>Tags: {{ include.tags | array_to_sentence_string }}</p>
+    <h4>Tags:</h4>
+    <ul>
+    {% for tag in include.tags %}
+        <li class="label label-info">{{ tag }}</li>
+    {% endfor %}
+    </ul>
 </div>
 {% endif %}
