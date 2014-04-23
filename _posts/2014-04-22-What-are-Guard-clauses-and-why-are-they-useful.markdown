@@ -12,14 +12,26 @@ are going to help you write nicer looking, easier to read and therefore easier t
 So first things first, I'm sure we're all familiar with code that looks similar to this.
 
 {% highlight php5 funcnamehighlighter linenos %}
-    <?php
-        class Article
-        {
-            public function getStatus()
-            {
-                if ($this->scheduled) {
-                    if ($this->
-                }
-            }
+<?php
+
+function convertUKDateToMySQLDate($ukdate)
+{
+    $ukdate = trim($ukdate);
+    if ($ukdate=="") {
+        return NULL;
+    } else {
+        $day=substr($ukdate, 0, 2);
+        $month=substr($ukdate, 3, 2);
+        $year=substr($ukdate, 6, 4);
+        
+        $retVal = "$year-$month-$day";
+        
+        //check for time at the end of the string
+        if (strlen($ukdate) > 10) {
+            $time = substr($ukdate, 11);
+            $retVal.= " " . $time;
         }
+        return $retVal;
+    }
+}
 {% endhighlight %}

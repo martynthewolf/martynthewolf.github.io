@@ -9,9 +9,7 @@ layout: default
     {{ content }}
 </div>
 
-<div class="tags">
-    <p>Tags: {{ page.tags | array_to_sentence_string }}</p>
-</div>
+{% include post-tags.html tags=page.tags %}
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">

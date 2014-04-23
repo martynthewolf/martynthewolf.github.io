@@ -1,0 +1,5 @@
+{% if include.tags.size > 0 %}
+<div class="tags">
+    <p>Tags: {{ include.tags | array_to_sentence_string }}</p>
+</div>
+{% endif %}
