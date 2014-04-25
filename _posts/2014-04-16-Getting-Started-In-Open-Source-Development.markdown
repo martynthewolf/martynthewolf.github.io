@@ -6,9 +6,9 @@ categories: Open Source Software
 tags:
 - Open Source Software
 - OSS
-- contribute
-- confidence
-- community
+- Contribute
+- Confidence
+- Community
 ---
 
 I want to start first by talking about some common fears I hear from people who want to contribute
