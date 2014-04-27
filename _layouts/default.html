@@ -11,7 +11,9 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+        i<!--<link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/bootstrap/css/custom.css">
 
@@ -19,15 +21,15 @@
 
     <body>
         <div id="wrap">
-            <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <a class="brand" href="/">{{ site.name }}</a>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav">
-                                <li><a class="extra" href="/">Blog</a></li>
-                            </ul>
-                        </div>
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">{{ site.name }}</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">Blog</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -35,10 +37,10 @@
             <div class="container main-container" style="display:block">
                 <div class="container-fluid">
                     <div class=row-fluid>
-                        <div class="span9">
+                        <div class="col-sm-9">
                             {{ content }}
                         </div>
-                        <div class="span3">
+                        <div class="col-sm-3">
                             <div class="row-fluid">
                                 <h2>Follow</h2>
                                 <a href="https://github.com/{{ site.repositories }}"><i class="icon-github-sign icon-3x"></i></a>
