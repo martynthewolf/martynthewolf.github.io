@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tracking Down Bugs in Recent Commits"
+title:  "Git Tip: Tracking Down Bugs in Recent Commits"
 date:   2015-03-12 11:17:00
 published: true
 categories: Code Design Nested Conditionals
@@ -11,9 +11,7 @@ tags:
 - Maintainance
 ---
 
-A really quick post just so I remember this because it helped me today.
-
-I managed to introduce a system breaking bug by removing a logic check that looked obsolete. A check in a place that looked like a check shouldn't ever need to be made which broke a system in a place away from where I was working.
+A really quick post just so I remember this because it helped me today. I managed to introduce a system breaking bug by removing a logic check that looked obsolete. A check in a place that looked like a check shouldn't ever need to be made which broke a system in a place away from where I was working.
 
 When the break was detected by another team member we couldn't figure out how it had broken everything looked like it should work and the tests passed. We spent some time looking through files trying to jog out memory on why certain things were done the way they were and came up with nothing.
 
