@@ -2,7 +2,7 @@
 layout: post
 title:  "Tracking Down Bugs in Recent Commits"
 date:   2015-03-12 11:17:00
-published: false
+published: true
 categories: Code Design Nested Conditionals
 tags:
 - Git
